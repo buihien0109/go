@@ -1,0 +1,1 @@
+hey -n 1000 -d '{"full_name":"nguyen van a", "email":"a@gmail.com", "phone" : "123456789"}' -H "Content-Type: application/json" -m POST http://localhost:3001/users
