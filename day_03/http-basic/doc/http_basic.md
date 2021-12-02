@@ -1,3 +1,5 @@
+## Go HTTP basic
+
 Các ngôn ngữ lập trình hầu hết cung cấp module, package để giúp chúng ta làm quen với http server. Trong Go cũng thế, nó cung cấp sẵn cho chúng ta package net/http bao gồm các phương thức cơ bản để giúp chúng ta bắt đầu tìm hiểu và thực hành với http server cũng như một số chức năng liên quan khác ví dụ : routing, query string, form, template, ...
 
 Trong bài viết này chúng ta sẽ tìm hiểu cách sử dụng package net/http để tạo ra server như thế nào và thực hiện routing đơn giản

@@ -1,3 +1,5 @@
+## Custom HTTP router
+
 Về cơ bản thì HTTP router là một multiplexer (bộ ghép kênh). Nó điều hướng HTTP request tới các hàm xử lý request tương ứng. Trong đó [gorilla/mux](https://github.com/gorilla/mux) là một router thường được sử dụng ở trong golang. Trong thư viện chuẩn của golang (golang standard library) cung cấp cho chúng ta [ServeMUX](https://pkg.go.dev/net/http#ServeMux) để làm điều tương tự.
 
 Để hiểu cách thiết kế router như thế nào, chúng ta hãy xem xét những điểm sau. Một router là một tập hợp các route và một route sẽ có những đặc điểm sau đây.

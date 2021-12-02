@@ -1,3 +1,5 @@
+## Go HTTP response
+
 Khi làm việc với Go HTTP, chắc hẳn khi xử lý với các request chúng ta thường trả về cho client nhiều kiểu dữ liệu khác nhau cho client ví dụ như: **Text, Json, Xml, Html, File, Template, ...**
 
 Vì vậy chúng ta cần định dạng kiểu dữ liệu trả về trong header của response với thuộc tính **Content-type** trước khi trả về dữ liệu cho client
